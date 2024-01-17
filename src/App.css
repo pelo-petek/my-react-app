@@ -2,9 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 4vh;
+  background-color: rgb(39, 95, 76);
+  color: white;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu ul li {
+  padding-right: 10%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
