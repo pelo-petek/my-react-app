@@ -1,28 +1,18 @@
 import './App.css';
-
-function Header() {
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Card from './components/Card';
+function App() {
   return (
-    <div className="header">
-      <header className="menu">
-        <h1>RİZGAR COMPANY</h1>
-        <ul>
-            <li>HOME</li>
-            <li>MENU</li>
-            <li>ABOUT</li>
-            <li>PRODUCTS</li>
-        </ul>
-    </header>
+    <div>
+    <Header/>
+    <div className='cards'>
+    <Card/>
+    </div>
+    <Footer></Footer>
     </div>
   );
 }
 
-function Footer(){
-  return <footer class="footer">
-  <ul>
-      <li>rizgar company</li>
-      <li>created by Pelda Petekkaya</li>
-  </ul>
-</footer>
-}
 
-export default Header;
+export default App;
